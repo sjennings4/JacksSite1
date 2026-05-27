@@ -1,0 +1,48 @@
+/* Change the Navbar background to a custom Blue/Purple */
+.custom-nav {
+    background-color: #f87000 !important; 
+}
+
+/* Change your Name heading to Orange */
+.jack-heading {
+    color: #f87000 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Change the page background color */
+body {
+    background-color: #5c5c5c;
+}
+.profile-image {
+     width: 350px;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.profile-hover {
+    transition: all 0.3s ease;
+}
+.profile-hover:hover {
+    transform: scale(1.1) rotate(5deg); /* Grows and tilts when you touch it */
+    filter: brightness(1.1);
+}
+body {
+    background-color: #343a40;
+    /* This adds a subtle 'paw print' or mesh vibe */
+    background-image: radial-gradient(#495057 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+.btn-orange {
+    background-color: #ff8c00 !important; /* Jack's signature orange */
+    border-color: #e67e00 !important;
+    color: white !important;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-orange:hover {
+    background-color: #e67e00 !important; /* Slightly darker on hover */
+    transform: scale(1.05); /* Gentle "pop" effect */
+    color: white !important;
+}
